@@ -11,5 +11,5 @@ test('Espresso correctly added to the Cart', async ({ page }) => {
   await menuPage.clickOnCartLink();
 
   await cartPage.waitForLoading();
-  await cartPage.assertProductCost('Espresso', '$10.00 x 1', '$10.00');
+  await cartPage.assertItemCost('Espresso', '$10.00 x 1', '$10.00');
 });
