@@ -18,6 +18,7 @@ export default defineConfig({
     testIdAttribute: 'data-test'
   },
 
+
   /* Configure projects for major browsers */
   projects: [
     {
